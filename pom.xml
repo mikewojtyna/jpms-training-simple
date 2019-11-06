@@ -6,6 +6,8 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>jpms-hello-world</module>
+		<module>discount-policy</module>
+		<module>discount-policy-consumer</module>
 	</modules>
 	<properties>
 		<maven-compiler-plugin.version>3.8.1
