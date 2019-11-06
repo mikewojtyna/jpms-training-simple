@@ -8,6 +8,8 @@
 		<module>jpms-hello-world</module>
 		<module>discount-policy</module>
 		<module>discount-policy-consumer</module>
+		<module>open-module</module>
+		<module>reflection-module</module>
 	</modules>
 	<properties>
 		<maven-compiler-plugin.version>3.8.1
