@@ -10,6 +10,9 @@
 		<module>discount-policy-consumer</module>
 		<module>open-module</module>
 		<module>reflection-module</module>
+		<module>clock-api</module>
+		<module>system-clock-provider</module>
+		<module>clock-api-client</module>
 	</modules>
 	<properties>
 		<maven-compiler-plugin.version>3.8.1
