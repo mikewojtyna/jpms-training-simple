@@ -16,6 +16,7 @@
         <module>files-converter-api</module>
         <module>xml-to-pdf-file-converter</module>
         <module>files-converter-client</module>
+        <module>pdf-to-xml-converter</module>
     </modules>
 	<properties>
 		<maven-compiler-plugin.version>3.8.1

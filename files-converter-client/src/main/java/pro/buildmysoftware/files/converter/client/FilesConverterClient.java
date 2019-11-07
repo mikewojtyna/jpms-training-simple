@@ -8,6 +8,10 @@ public class FilesConverterClient {
     public static void main(String[] args) throws Exception {
         FilesConverterApi api = FilesConverterFactory.getApi();
         FileData fData = new FileData("xml");
-        System.out.println(api.convert(fData, "pdf"));
+        System.out.println(fData.getExtension());
+        fData = api.convert(fData, "pdf");
+        System.out.println(fData.getExtension());
+        fData = api.convert(fData, "xml");
+        System.out.println(fData.getExtension());
     }
 }
