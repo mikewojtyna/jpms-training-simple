@@ -13,7 +13,10 @@
 		<module>clock-api</module>
 		<module>system-clock-provider</module>
 		<module>clock-api-client</module>
-	</modules>
+        <module>files-converter-api</module>
+        <module>xml-to-pdf-file-converter</module>
+        <module>files-converter-client</module>
+    </modules>
 	<properties>
 		<maven-compiler-plugin.version>3.8.1
 		</maven-compiler-plugin.version>
